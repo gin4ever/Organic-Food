@@ -38,6 +38,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     @include('layout.partials.header')
 
 	<main id="main">
+        @include('layout.sidebar')
+
         @yield('contents')
 
 	</main>
